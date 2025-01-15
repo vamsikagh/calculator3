@@ -1,0 +1,112 @@
+
+body{
+    margin:0;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height:100vh;
+    background-color: rgb(59, 91, 92);
+}
+#calculator{
+    font-family:Arial, Helvetica, sans-serif;
+    background-color: rgb(37, 41, 37);
+    border-radius: 30px;
+    max-width:375px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 1);
+}
+button{
+    width:75px;
+    height:75px;
+    border-radius:50%;
+    border:none;
+    font-size:2.5rem;
+    font-weight:bold;
+    color:rgb(229, 255, 195);
+    background-color:rgba(58, 74, 38,0.4);
+    cursor:pointer;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.7);
+}
+button:hover{
+    background-color:rgb(70, 83, 53);
+
+}
+button:active{
+    background-color: rgb(150, 173, 120);
+}
+.operations:hover{
+    background-color: rgb(142, 176, 95);
+}
+.operations:active{
+    background-color: rgb(184, 228, 125);
+}
+#keys{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap:10px;
+    padding:20px;
+    font-family:cursive;
+}
+#display{
+    height:130px;
+    width:340px;
+    border-radius:25px;
+    margin-top: 15px;
+    margin-left: 15px;
+    margin-right:5px;
+    background-color: rgba(79, 103, 47,0.6);
+    border-style: none;
+    font-size: 3.5rem;
+    color:aliceblue;
+}
+.operations{
+    background-color:rgba(150, 195, 90,0.5);
+}
+#clear{
+    width:130px;
+    height:65px;
+    border-radius:28px;
+    margin-top: 20px;
+    margin-left: 20px;  
+    background-color: rgba(31, 166, 114,0.5); 
+    font-size:30px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+#clear:hover{
+    background-color: #197F58;
+}
+#clear:active{
+    background-color: rgb(15, 62, 44);
+}
+#delete{
+    width:130px;
+    height:65px;
+    border-radius:28px;
+    margin-top: 20px;
+    margin-left: 72px;  
+    background-color: rgba(227, 130, 130, 0.6);
+    font-size:30px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+#delete:hover{
+    background-color:rgba(251, 148, 148, 0.801);
+}
+#delete:active{
+    background-color:rgb(104, 59, 59);
+}
+h1{
+    margin-bottom:0%;
+    margin-top:15px;
+    margin-left:15px;
+    color:white;
+}
+#equalto{
+    background-color: rgb(77, 126, 13);
+}
+#equalto:hover{
+    background-color:rgb(138, 200, 58);
+}
+#equalto:active{
+    background-color:  rgb(55, 88, 10);;
+}
