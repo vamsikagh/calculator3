@@ -1,0 +1,1 @@
+As I started learning, HTML ,CSS and JavaScript, I thought doing practical projects is a great way of learning. I did took help and I agree that I didn't do this project entirely on my own, but doing these real time projects built my confidence. So this is my first mini project in Web development
